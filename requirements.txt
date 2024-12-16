@@ -1,0 +1,10 @@
+cupy==13.1.0
+data==0.4
+numpy==1.24.4
+numpy==1.23.5
+pynrrd==0.4.3
+scikit_learn==1.1.2
+scipy==1.9.1
+Tools==0.1.9
+torch==1.12.1+cu116
+torch==2.0.0
