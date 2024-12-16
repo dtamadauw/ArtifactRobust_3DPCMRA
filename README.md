@@ -45,19 +45,17 @@ The code has been modified from the original, as the original utilized GE's prop
 
 **Data Augmentation**
 
-    Augmentation.py is the primary script used for augmenting pulsation artifacts in your dataset.
+Augmentation.py is the primary script used for augmenting pulsation artifacts in your dataset.
 
    ```python Augmentation.py [Training data directory] [Output directory]```
 
-    Generating Config File
-    Before training the 3D U-Net model, you need to generate a configuration file using Gen_config_file.py.
-
+Generating Config File
+Before training the 3D U-Net model, you need to generate a configuration file using Gen_config_file.py.
 
    ```python Gen_config_file.py```
 
-    Segmentation Prediction
-    Use predict.py to perform segmentation using the trained 3D U-Net model.
-    bash
+Segmentation Prediction
+Use predict.py to perform segmentation using the trained 3D U-Net model.
 
    ```python predict.py --config_filename [Path to generated configuration file]] --model_filename [Path to trained] --group [Group Name] --output_directory [Directory for segmentation results] --input_dir [Directory for input MRA data]```
 
@@ -65,10 +63,10 @@ The code has been modified from the original, as the original utilized GE's prop
 
 ## Trained Model
 
-    The trained model is available and can be used directly with predict.py.
-    Model Path: Trained/trained_model.pth
+The trained model is available and can be used directly with predict.py.
+Model Path: Trained/trained_model.pth
 
 ## Acknowledgments
 
-    The implementation of the 3D U-Net model is based on the work from 3DUnetCNN.
-    Note: Since the license of the 3D U-Net network is not clear, we have not included its source code in this repository. Please ensure that you comply with all licensing requirements when using the 3D U-Net code.
+The implementation of the 3D U-Net model is based on the work from 3DUnetCNN.
+Note: Since the license of the 3D U-Net network is not clear, we have not included its source code in this repository. Please ensure that you comply with all licensing requirements when using the 3D U-Net code.
