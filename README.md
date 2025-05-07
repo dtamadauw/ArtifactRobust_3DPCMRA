@@ -24,6 +24,7 @@ The code has been modified from the original, as the original utilized GE's prop
 - **PyTorch**
 - **NumPy**
 - **[3DUnetCNN](https://github.com/ellisdg/3DUnetCNN)**
+- **MATLAB R2022b or later**
 
 ## Installation
 
@@ -65,6 +66,11 @@ Use predict.py to perform segmentation using the trained 3D U-Net model.
 
 The trained model is available and can be used directly with predict.py.
 Model Path: Trained/trained_model.pth
+
+## Simulation Code
+
+Simulation code is available. The code generates Figure 4 and Supplimental Figure 1 in the paper.
+Simulation Code Path: Simulation_Code/Figure4.m
 
 ## Acknowledgments
 
